@@ -2,6 +2,7 @@
   <title>piplup 🥰</title>
   <link rel="icon" type="image/x-icon" href="https://static.myfigurecollection.net/upload/pictures/2023/08/02/3696120.png">
   <script>
+    let doc = new Document();
     function piplup() {
       var img = document.createElement("img");
       let width = window.screen.width;
@@ -9,7 +10,7 @@
       img.src = piplup.gif;
       img.width = width;
       img.height = height;
-      document.body.appendChild(img);
+      doc.append(img);
     }
     piplup();
   </script>
